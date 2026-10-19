@@ -1,84 +1,142 @@
-# Politique de confidentialité - Picktogram
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de confidentialité - Picktogram</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        h1 {
+            color: #1a1a1a;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 10px;
+            font-size: 2rem;
+            margin-top: 0;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 30px;
+            font-size: 1.3rem;
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 5px;
+        }
+        p, li {
+            font-size: 1rem;
+            color: #4a4a4a;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .date {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 25px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact-info {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+    </style>
+</head>
+<body>
 
-Dernière mise à jour : 18 novembre 2026
+<div class="container">
+    <h1>Politique de confidentialité - Picktogram</h1>
+    <p class="date">Dernière mise à jour : 18 novembre 2026</p>
 
-Picktogram est une application de communication par pictogrammes. La présente politique explique quelles données peuvent être traitées lorsque vous utilisez l'application, dans quel but et quels sont vos droits.
+    <p>Picktogram est une application de communication par pictogrammes. La présente politique explique quelles données peuvent être traitées lorsque vous utilisez l'application, dans quel but et quels sont vos droits.</p>
 
-**Éditeur et responsable du traitement**
+    <div class="contact-info">
+        <strong>Éditeur et responsable du traitement</strong><br>
+        Nom : Cyrille Dose<br>
+        E-mail de contact pour la confidentialité : <a href="mailto:cyrilleapplication@gmail.com">cyrilleapplication@gmail.com</a>
+    </div>
 
-Nom : Cyrille Dose
+    <h2>1. Données traitées</h2>
+    <p>Selon les fonctionnalités que vous utilisez, Picktogram peut traiter les données suivantes :</p>
+    <ul>
+        <li>Un identifiant technique anonyme créé par Firebase Authentication afin de permettre le fonctionnement du couplage entre appareils. L'application ne demande pas la création d'un compte avec adresse e-mail ou mot de passe.</li>
+        <li>Les noms choisis pour les profils « utilisateur » et « accompagnant ».</li>
+        <li>Les photos de profil sélectionnées par l'utilisateur, lorsque cette fonction est utilisée.</li>
+        <li>Les pictogrammes personnalisés et leurs noms, importés depuis l'appareil.</li>
+        <li>Le contenu des messages et pictogrammes envoyés dans une conversation entre appareils couplés, ainsi que leurs date et heure, l'identifiant technique de l'expéditeur et, le cas échéant, l'image associée.</li>
+        <li>Les codes de couplage temporaires nécessaires pour associer deux appareils.</li>
+        <li>Le jeton technique de notification de l'appareil, lorsque les notifications sont autorisées, afin d'envoyer une alerte lors de la réception d'un nouveau message.</li>
+        <li>Les préférences enregistrées localement sur l'appareil, telles que la langue, le mode d'interface, l'ordre des catégories, les favoris, les noms personnalisés et les chemins des images importées.</li>
+    </ul>
+    <p>L'application ne collecte pas volontairement votre position, vos contacts, vos données de santé, vos données de paiement ni votre adresse e-mail.</p>
 
-E-mail de contact pour la confidentialité : cyrilleapplication @gmail.com
-## 1. Données traitées
+    <h2>2. Finalités et base légale</h2>
+    <p>Les données sont traitées uniquement pour :</p>
+    <ul>
+        <li>fournir les fonctionnalités de communication par pictogrammes ;</li>
+        <li>créer et gérer le couplage entre deux appareils ;</li>
+        <li>afficher les profils, les photos et les pictogrammes personnalisés choisis par les utilisateurs ;</li>
+        <li>acheminer les messages et les notifications ;</li>
+        <li>mémoriser vos réglages et personnalisations sur l'appareil.</li>
+    </ul>
+    <p>Lorsque des données sont nécessaires au fonctionnement de l'application, le traitement repose sur l'exécution du service demandé. L'accès aux photos ou aux notifications dépend des autorisations que vous accordez sur votre appareil ; vous pouvez les retirer à tout moment dans les réglages du système.</p>
 
-Selon les fonctionnalités que vous utilisez, Picktogram peut traiter les données suivantes :
+    <h2>3. Où les données sont stockées et qui y accède</h2>
+    <p>Certaines données restent sur votre appareil, notamment les préférences et les fichiers de pictogrammes que vous importez.</p>
+    <p>Lorsque vous utilisez le couplage ou la messagerie, les données nécessaires à ces fonctions sont traitées via les services Firebase de Google :</p>
+    <ul>
+        <li>Firebase Authentication pour l'identifiant anonyme ;</li>
+        <li>Cloud Firestore pour les profils, codes de couplage, conversations et messages ;</li>
+        <li>Firebase Cloud Messaging pour l'acheminement des notifications ;</li>
+        <li>Firebase Storage peut être utilisé pour les fichiers partagés dans une conversation.</li>
+    </ul>
+    <p>Les participants à une même conversation peuvent accéder aux messages, pictogrammes, noms et images partagés dans cette conversation. Les règles d'accès de l'application limitent l'accès aux conversations à leurs participants authentifiés.</p>
+    <p>Google agit comme prestataire technique pour les services Firebase. Les traitements de Google sont soumis à ses propres conditions et à sa documentation relative à la confidentialité : <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">https://firebase.google.com/support/privacy</a></p>
 
-- Un identifiant technique anonyme créé par Firebase Authentication afin de permettre le fonctionnement du couplage entre appareils. L'application ne demande pas la création d'un compte avec adresse e-mail ou mot de passe.
-- Les noms choisis pour les profils « utilisateur » et « accompagnant ».
-- Les photos de profil sélectionnées par l'utilisateur, lorsque cette fonction est utilisée.
-- Les pictogrammes personnalisés et leurs noms, importés depuis l'appareil.
-- Le contenu des messages et pictogrammes envoyés dans une conversation entre appareils couplés, ainsi que leurs date et heure, l'identifiant technique de l'expéditeur et, le cas échéant, l'image associée.
-- Les codes de couplage temporaires nécessaires pour associer deux appareils.
-- Le jeton technique de notification de l'appareil, lorsque les notifications sont autorisées, afin d'envoyer une alerte lors de la réception d'un nouveau message.
-- Les préférences enregistrées localement sur l'appareil, telles que la langue, le mode d'interface, l'ordre des catégories, les favoris, les noms personnalisés et les chemins des images importées.
+    <h2>4. Notifications</h2>
+    <p>Si vous acceptez les notifications, l'application enregistre le jeton de notification de l'appareil afin de vous alerter lors de la réception d'un message. Une notification peut afficher le nom de l'expéditeur, un pictogramme et le texte du message. Vous pouvez désactiver les notifications dans les réglages de votre appareil.</p>
 
-L'application ne collecte pas volontairement votre position, vos contacts, vos données de santé, vos données de paiement ni votre adresse e-mail.
+    <h2>5. Conservation</h2>
+    <p>Les données conservées localement restent sur l'appareil jusqu'à leur suppression par l'utilisateur, à la désinstallation de l'application ou à l'effacement des données de l'application.</p>
+    <p>Les données partagées au moyen de Firebase sont conservées aussi longtemps que nécessaire au fonctionnement des conversations et du couplage, sauf suppression ou durée différente définie par l'éditeur. Les messages ne sont pas supprimés automatiquement par l'application à ce jour.</p>
 
-## 2. Finalités et base légale
+    <h2>6. Sécurité</h2>
+    <p>L'application utilise les mécanismes d'authentification et les règles d'accès Firebase pour restreindre l'accès aux données. Malgré ces mesures, aucune transmission ou conservation de données sur Internet ne peut être garantie comme totalement sécurisée. Ne partagez pas d'informations sensibles ou confidentielles dans les noms, photos, messages ou pictogrammes envoyés via l'application.</p>
 
-Les données sont traitées uniquement pour :
+    <h2>7. Vos droits</h2>
+    <p>Conformément à la réglementation applicable, notamment au RGPD lorsque celui-ci s'applique, vous pouvez demander l'accès, la rectification, l'effacement, la limitation ou la portabilité de vos données, ainsi que vous opposer à certains traitements.</p>
+    <p>Pour exercer vos droits ou poser une question, contactez l'éditeur à : <a href="mailto:cyrilleapplication@gmail.com">cyrilleapplication@gmail.com</a>.</p>
+    <p>Vous pouvez également introduire une réclamation auprès de l'autorité de protection des données compétente. En France, il s'agit de la CNIL : <a href="https://www.cnil.fr/" target="_blank" rel="noopener noreferrer">https://www.cnil.fr/</a></p>
 
-- fournir les fonctionnalités de communication par pictogrammes ;
-- créer et gérer le couplage entre deux appareils ;
-- afficher les profils, les photos et les pictogrammes personnalisés choisis par les utilisateurs ;
-- acheminer les messages et les notifications ;
-- mémoriser vos réglages et personnalisations sur l'appareil.
+    <h2>8. Utilisation par des mineurs ou personnes vulnérables</h2>
+    <p>Picktogram peut être utilisé pour accompagner la communication de mineurs ou de personnes vulnérables. L'adulte responsable doit veiller aux contenus partagés, aux autorisations accordées à l'application et à l'utilisation du couplage entre appareils.</p>
 
-Lorsque des données sont nécessaires au fonctionnement de l'application, le traitement repose sur l'exécution du service demandé. L'accès aux photos ou aux notifications dépend des autorisations que vous accordez sur votre appareil ; vous pouvez les retirer à tout moment dans les réglages du système.
+    <h2>9. Modifications de cette politique</h2>
+    <p>La présente politique peut être mise à jour en cas d'évolution de l'application, de ses fonctionnalités ou des services utilisés. La date de dernière mise à jour sera alors modifiée en haut de ce document.</p>
+</div>
 
-## 3. Où les données sont stockées et qui y accède
-
-Certaines données restent sur votre appareil, notamment les préférences et les fichiers de pictogrammes que vous importez.
-
-Lorsque vous utilisez le couplage ou la messagerie, les données nécessaires à ces fonctions sont traitées via les services Firebase de Google :
-
-- Firebase Authentication pour l'identifiant anonyme ;
-- Cloud Firestore pour les profils, codes de couplage, conversations et messages ;
-- Firebase Cloud Messaging pour l'acheminement des notifications ;
-- Firebase Storage peut être utilisé pour les fichiers partagés dans une conversation.
-
-Les participants à une même conversation peuvent accéder aux messages, pictogrammes, noms et images partagés dans cette conversation. Les règles d'accès de l'application limitent l'accès aux conversations à leurs participants authentifiés.
-
-Google agit comme prestataire technique pour les services Firebase. Les traitements de Google sont soumis à ses propres conditions et à sa documentation relative à la confidentialité : https://firebase.google.com/support/privacy
-
-## 4. Notifications
-
-Si vous acceptez les notifications, l'application enregistre le jeton de notification de l'appareil afin de vous alerter lors de la réception d'un message. Une notification peut afficher le nom de l'expéditeur, un pictogramme et le texte du message. Vous pouvez désactiver les notifications dans les réglages de votre appareil.
-
-## 5. Conservation
-
-Les données conservées localement restent sur l'appareil jusqu'à leur suppression par l'utilisateur, à la désinstallation de l'application ou à l'effacement des données de l'application.
-
-Les données partagées au moyen de Firebase sont conservées aussi longtemps que nécessaire au fonctionnement des conversations et du couplage, sauf suppression ou durée différente définie par l'éditeur. Les messages ne sont pas supprimés automatiquement par l'application à ce jour.
-
-
-## 6. Sécurité
-
-L'application utilise les mécanismes d'authentification et les règles d'accès Firebase pour restreindre l'accès aux données. Malgré ces mesures, aucune transmission ou conservation de données sur Internet ne peut être garantie comme totalement sécurisée. Ne partagez pas d'informations sensibles ou confidentielles dans les noms, photos, messages ou pictogrammes envoyés via l'application.
-
-## 7. Vos droits
-
-Conformément à la réglementation applicable, notamment au RGPD lorsque celui-ci s'applique, vous pouvez demander l'accès, la rectification, l'effacement, la limitation ou la portabilité de vos données, ainsi que vous opposer à certains traitements.
-
-Pour exercer vos droits ou poser une question, contactez l'éditeur à : [adresse e-mail de contact à compléter].
-
-Vous pouvez également introduire une réclamation auprès de l'autorité de protection des données compétente. En France, il s'agit de la CNIL : https://www.cnil.fr/
-
-## 8. Utilisation par des mineurs ou personnes vulnérables
-
-Picktogram peut être utilisé pour accompagner la communication de mineurs ou de personnes vulnérables. L'adulte responsable doit veiller aux contenus partagés, aux autorisations accordées à l'application et à l'utilisation du couplage entre appareils.
-
-## 9. Modifications de cette politique
-
-La présente politique peut être mise à jour en cas d'évolution de l'application, de ses fonctionnalités ou des services utilisés. La date de dernière mise à jour sera alors modifiée en haut de ce document.
-
+</body>
+</html>
